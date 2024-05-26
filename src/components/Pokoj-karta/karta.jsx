@@ -24,10 +24,7 @@ export const Card = ({ onSelectCard }) => {
               onSelectCard(pokoj);
             }}
           >
-            <img
-              className="card__image"
-              src="../../../public/img-pokoje/pokoj01.jpg"
-            />
+            <img className="card__image" src={pokoj.img} />
             <div className="card__title">{pokoj.name}</div>
             <div className="card__body">{pokoj.cena}Kc na osobu</div>
           </div>

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Form } from './form';
 
-export const Detail = ({ name, cena, popis }) => {
+export const Detail = ({ name, cena, popis, obrazek }) => {
   return (
     <section className="light">
       <div className="container">
@@ -12,9 +12,10 @@ export const Detail = ({ name, cena, popis }) => {
             </h2>
             <div className="columns-2">
               <div className="column">
-                <img src="img/image1.svg" alt="Pokoj" />
+                <img src={obrazek} alt="Pokoj" />
                 <p>{popis}</p>
               </div>
+
               <Form />
             </div>
           </>

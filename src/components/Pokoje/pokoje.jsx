@@ -8,10 +8,11 @@ export const Pokoje = ({ handleRoomSelect }) => {
     setVybranyPokoj(props.name);
     setVybranyPokoj(props.cena);
     setVybranyPokoj(props.popis);
+    setVybranyPokoj(props.obrazek);
+
+    console.log(props.id, typeof props.id);
 
     handleRoomSelect(props);
-
-    console.log('Vybraný pokoj:', props.name, props.cena, props.popis);
   };
   return (
     <section className="dark">

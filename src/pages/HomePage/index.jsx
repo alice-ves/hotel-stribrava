@@ -20,6 +20,7 @@ export const HomePage = () => {
         name={vybranyPokoj?.name}
         cena={vybranyPokoj?.cena}
         popis={vybranyPokoj?.popis}
+        obrazek={vybranyPokoj?.obrazek}
       ></Detail>
       <Footer />
     </div>

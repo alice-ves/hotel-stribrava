@@ -3,14 +3,15 @@ export const Footer = () => {
     <section className="dark">
       <div className="container columns-2">
         <div className="columns">
-          <h2>Heading</h2>
+          <h2>Kontakt</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
-            mollitia ut pariatur eos error sunt blanditiis repellat similique
-            aperiam temporibus.
+            Hotel Stribrava <br></br>
+            Na Kamenne lavce 12 <br></br>
+            317 24 Libnice nad Stribravou{' '}
           </p>
+          <a href="mailto:xxx">recepce@hotelstribrava.cz</a>
         </div>
-        <img src="img/image1.svg" />
+        <img src="img/mapa.png" />
       </div>
     </section>
   );
